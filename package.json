@@ -1,0 +1,39 @@
+{
+  "name": "less-blog",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint --ext .ts,.tsx --fix",
+    "prettier": "prettier --write \"**/*.{html,js,json,md,mdx,yml}\""
+  },
+  "dependencies": {
+    "@types/nprogress": "^0.2.0",
+    "@types/theme-ui": "^0.3.7",
+    "axios": "^0.20.0",
+    "framer-motion": "^2.9.3",
+    "next": "^10.0.0",
+    "next-seo": "^4.10.0",
+    "nprogress": "^0.2.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-feather": "^2.0.8",
+    "react-notion": "^0.8.0",
+    "theme-ui": "^0.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.21",
+    "@types/react": "^16.9.16",
+    "@types/react-dom": "^16.9.4",
+    "@typescript-eslint/eslint-plugin": "^4.2.0",
+    "@typescript-eslint/parser": "^4.2.0",
+    "eslint": "^7.9.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.2",
+    "prettier": "^2.1.2",
+    "typescript": "3.7.3"
+  },
+  "license": "MIT"
+}
